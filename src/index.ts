@@ -1,5 +1,12 @@
+//index.ts
+import { Bola } from './model/Bola';
+import { BombaCombustivel } from './model/BombaCombustivel';
+import { Calculadora } from './model/Calculadora';
+import { Carro } from './model/Carro';
+import { ContaCorrente } from './model/Conta'
+import { Contador } from './model/Contador';
 
-//Contador
+//////Contador
 
 const contador = new Contador();
 
@@ -14,7 +21,7 @@ contador.zerar();
 
 console.log(contador.retornarValor()); // Saída: 0
 
-//Bola
+//////Bola
 
 const minhaBola = new Bola("vermelha", 10, "couro");
 
@@ -24,7 +31,7 @@ minhaBola.trocarCor("azul");
 
 console.log(minhaBola.mostrarCor()); // Saída: azul
 
-//Conta Corrente
+//////Conta Corrente
 
 const minhaConta = new ContaCorrente("123456", "Fulano");
 
@@ -41,7 +48,7 @@ console.log(minhaConta); // Saída: ContaCorrente { numeroConta: '123456', nomeC
 
 minhaConta.saque(100); // Saída: Saldo insuficiente.
 
-//Calculadora
+//////Calculadora
 
 const calculadora = new Calculadora();
 
@@ -53,7 +60,7 @@ calculadora.subtrair(8, 3);
 calculadora.visualizarHistorico();
 
 
-//Bomba de Combustível
+//////Bomba de Combustível
 
 const bomba = new BombaCombustivel("Gasolina", 5.5, 1000);
 
@@ -74,7 +81,7 @@ bomba.abastecerPorValor(100);
 // Saída: Abastecimento concluído. Foram colocados 16.666666666666668 litros no veículo.
 
 
-//Carro
+//////Carro
 
 const meuFusca = new Carro(15);
 
