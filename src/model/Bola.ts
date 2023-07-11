@@ -1,4 +1,4 @@
-class Bola {
+export class Bola {
     private cor: string;
     private circunferencia: number;
     private material: string;
@@ -17,4 +17,4 @@ class Bola {
       return this.cor;
     }
   }
-  
+

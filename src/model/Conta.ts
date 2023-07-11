@@ -1,4 +1,4 @@
-class ContaCorrente {
+export class ContaCorrente {
     private numeroConta: string;
     private nomeCorrentista: string;
     private saldo: number;

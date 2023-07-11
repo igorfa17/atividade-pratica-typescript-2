@@ -1,4 +1,4 @@
-class Carro {
+export class Carro {
     private consumoCombustivel: number;
     private nivelCombustivel: number;
   

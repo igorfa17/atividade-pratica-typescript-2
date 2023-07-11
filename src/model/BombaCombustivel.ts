@@ -1,4 +1,4 @@
-class BombaCombustivel {
+export class BombaCombustivel {
     private tipoCombustivel: string;
     private valorLitro: number;
     private quantidadeCombustivel: number;

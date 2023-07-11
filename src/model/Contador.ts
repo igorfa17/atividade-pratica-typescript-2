@@ -1,4 +1,4 @@
-class Contador {
+export class Contador {
     private valor: number;
   
     constructor() {

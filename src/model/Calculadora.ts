@@ -1,4 +1,4 @@
-class Calculadora {
+export class Calculadora {
     private historico: string[];
   
     constructor() {
